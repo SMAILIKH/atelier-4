@@ -17,10 +17,10 @@ class MainApp extends StatelessWidget {
               Text('Hello World!'),
               Text('Azul Fellawen'),
               Container(
-                margin: EdgeInsets.all(20),
-                padding: EdgeInsets.all(16),
+                margin: EdgeInsets.all(50),
+                padding: EdgeInsets.all(40),
                 decoration: BoxDecoration(
-                  color: Colors.purple,
+                  color: Colors.yellow,
                   borderRadius: BorderRadius.circular(24),
                 ),
                 child: Text(
@@ -30,9 +30,9 @@ class MainApp extends StatelessWidget {
               ),
               Text('c est ma premier application'),
               Stack(
-                alignment: Alignment.topRight,
+                alignment: Alignment.bottomRight,
                 children: [
-                  Container(width: 200, height: 200, color: Colors.blue[100]),
+                  Container(width: 200, height: 200, color: Colors.green[100]),
                   Icon(Icons.star, size: 100, color: Colors.amber),
                   Text(
                     "Superposé !",
