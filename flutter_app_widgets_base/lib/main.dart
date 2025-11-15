@@ -13,11 +13,22 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: const [
+            children: [
               Text('Hello World!'),
-              SizedBox(height: 8),
               Text('Azul Fellawen'),
+              Container(
+                margin: EdgeInsets.all(20),
+                padding: EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.purple,
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                child: Text(
+                  ' Amazigh you walk alone',
+                  style: TextStyle(color: Colors.blue),
+                ),
+              ),
+              Text('c est ma premier application'),
             ],
           ),
         ),
